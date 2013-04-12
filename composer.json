@@ -15,6 +15,8 @@
     },
 
     "require": {
+        "rampage-php/framework": ">= 0.9.0",
+        "rampage-php/composer-module-installer": ">= 0.9.0",
         "zendframework/zend-developer-tools": "dev-master"
     },
     
