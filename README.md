@@ -1,4 +1,7 @@
-rampage-dev-tools
-=================
+Rampage Development Tools
+=========================
 
-ZendDeveloperTools addon to support DB profiling in rampage-php without BjyProfiler
+This module offers an enhancement for rampage-php to support
+DB profiling on all adapters in ZendDeveloperTools without installing BjyProfiler.
+
+__NOTE__: In fact it will conflict with BjyProfiler
