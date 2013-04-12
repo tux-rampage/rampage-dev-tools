@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.linux-rampage.org/ModuleManifest">
+    <module name="rampage.devtools" version="1.0.0">
+        <label>ZendDeveloperTools extensions</label>
+        <dependencies>
+            <depends>ZendDeveloperTools</depends>
+        </dependencies>
+    </module>
+    
+    <services>
+        <factory name="ZendDeveloperTools\DbCollector" class="rampage.devtools.collector.DbCollectorFactory" />
+        <service name="db.profiler" class="rampage.devtools.collector.Profiler" />
+    </services>
+    
+    <packages>
+        <package name="rampage.devtools" directory="src" />
+        <classmap file="bjycompat.classmap.php" />
+    </packages>
+</manifest>
