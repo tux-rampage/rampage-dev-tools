@@ -25,6 +25,9 @@
     },
     
     "extra": {
-        "modulename": "rampage.devtools" 
+        "modulename": "rampage.devtools",
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     }
 }
