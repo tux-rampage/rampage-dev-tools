@@ -4,11 +4,15 @@
     "license": "GPL-3.0",
     "type": "rampage-module",
     "homepage": "https://github.com/tux-rampage/rampage-dev-tools",
-    "keywords": ["debug", "developer", "rampage", "module"],
+    "keywords": ["debug", "developer", "zf2", "rampage", "module"],
     
     "authors": [
-        { "name": "tux-rampage", "email": "staff@pro-unreal.de" }
+        { "name": "Axel H.", "email": "rampagephp@linux-rampage.org", "role": "developer" }
     ],
+    
+    "support": {
+        "issues": "https://github.com/tux-rampage/rampage-dev-tools/issues"
+    },
     
     "conflict": {
         "bjyoungblood/bjy-profiler": "*"
